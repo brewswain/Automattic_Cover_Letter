@@ -1,0 +1,33 @@
+.hero-text-container {
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+}
+
+.hero-text {
+  font-size: 6rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 15%);
+  margin-bottom: 0;
+}
+
+.hero-emphasis {
+  font-size: 5rem;
+  color: hsl(216, 31%, 61%);
+}
+
+@media screen and (max-width: 800px) {
+  .hero-text-container {
+    padding-left: 3rem;
+  }
+  .hero-text {
+    font-size: 3rem;
+  }
+  .hero-emphasis {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero-text-container {
+    padding-left: 2rem;
+  }
+}
