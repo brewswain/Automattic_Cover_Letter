@@ -135,7 +135,7 @@ const HomePage = () => {
         </div>
       </div>
       <HeroText>
-        Thanks for your consideration<span className="hero-emphasis">!</span>
+        Thanks<span className="hero-emphasis">!</span>
       </HeroText>
       <div className="home-page-container">
         <div className="home-page-content">
